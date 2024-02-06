@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+.logo{
+    text-indent: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    font-size: 20px;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li{
+    list-style-type: none;
+    margin-right: 20px;
+}
+li:hover{
+    cursor: pointer;
+}
+.inputfield{
+    width: 250px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    text-align: center;
+}
+.inputfield:hover{
+    border: none;
+}
+.inputfield:focus{
+    outline: none;
+}
+.aside{
+    margin-top:10px;
+    width: 28%;
+    height: 500px;
+    border: 1px solid black;
+    float: left;
+}
+.image1{
+    width: 100%;
+    height: 33%;
+    padding: 10px;
+}
+.content{
+    margin-top:10px;
+    width: 70%;
+    height: 500px;
+    border: 1px solid black;
+    float: right;
+}
+.contentbox1{
+    display: flex;
+    align-items: center;
+}
+.image2{
+    width: 90%;
+    height: 200px;
+    margin: 20px auto;
+}
+.contentbox2{
+    margin:20px 50px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.image3{
+    width: 350px;
+    height: 200px;
+}
+.textbox{
+    border: 1px solid black;
+    font-size: 18px;
+    width: 350px;
+    height: 200px;
+    padding: 10px;
+    display: inline;
+    text-align: justify;
+}
+.textbox:hover{
+    box-shadow: 5px 5px 5px gray;
+
+}
+img:hover{
+    box-shadow: 5px 5px 5px gray;
+}
